@@ -31,10 +31,9 @@ void loop() {
   int target = target_cm * cvrt;
 
   // PID constants
-  float kp = 1;
-  float kd = 0.025;
-  float ki = 0.0;
-
+   float kp = 1.5;
+   float kd = 0.5;
+   float ki = 0.25;
   // time difference
   long currT = micros();
   float deltaT = ((float) (currT - prevT))/( 1.0e6 );
