@@ -16,7 +16,7 @@ This project implements **position control of a DC motor** using a **rotary enco
 
 ## System Behavior
 
-- Target distance is hardcoded in `target_cm`
+- Target distance in `target_cm`
 - Code converts this distance to encoder ticks via `cvrt` (ticks/cm)
 - The motor runs and stops when the target position is reached
 - Serial monitor prints current position and target continuously
